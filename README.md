@@ -85,4 +85,11 @@ Handles all operations related to menu and order management.
 #include <vector>
 #include <string>
 #include <fstream>
-
+```
+## Example Usage
+**Display Menu**
+--- Menu ---
+ID: 1 | Burger | Price: $5.99
+ID: 2 | Pizza | Price: $8.99
+ID: 3 | Pasta | Price: $6.99
+ID: 4 | Salad | Price: $4.99
