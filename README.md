@@ -87,6 +87,15 @@ Handles all operations related to menu and order management.
 #include <fstream>
 ```
 ## Example Usage
+```
+--- Food Order Management System ---
+1. Display Menu
+2. Place Order
+3. View Order History
+4. Save Order History to File
+5. Exit
+Enter your choice: 
+```
 **Display Menu**
 ```--- Menu ---
 ID: 1 | Burger | Price: $5.99
@@ -94,5 +103,24 @@ ID: 2 | Pizza | Price: $8.99
 ID: 3 | Pasta | Price: $6.99
 ID: 4 | Salad | Price: $4.99
 ```
+**Order Place**
+```Enter item IDs to add to your order (0 to finish):
+Item ID: 1
+Burger added to the order.
+Item ID: 2
+Pizza added to the order.
+Item ID: 0
+Order placed successfully! Order ID: 1
+```
+**View Order History**
+```--- Order History ---
+Order ID: 1
+Items:
+ID: 1 | Burger | Price: $5.99
+ID: 2 | Pizza | Price: $8.99
+Total Amount: $14.98
+```
+**Save Order History to File**
+```Order history saved to order_history.txt```
 
 
